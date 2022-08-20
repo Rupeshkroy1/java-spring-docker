@@ -1,4 +1,4 @@
-package com.tesco.testproj.controllers;
+package com.learningtrays.testproj.controllers;
 
 import java.util.UUID;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tesco.testproj.models.Task;
-import com.tesco.testproj.service.TaskServiceImpl;
+import com.learningtrays.testproj.models.Task;
+import com.learningtrays.testproj.service.TaskServiceImpl;
 
 @RestController
 public class TaskControllers {

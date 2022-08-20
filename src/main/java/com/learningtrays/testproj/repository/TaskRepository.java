@@ -1,4 +1,4 @@
-package com.tesco.testproj.repository;
+package com.learningtrays.testproj.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
@@ -7,7 +7,7 @@ import java.util.UUID;
 
 import org.springframework.data.jdbc.repository.query.Query;
 
-import com.tesco.testproj.models.Task;
+import com.learningtrays.testproj.models.Task;
 
 @Repository
 public interface TaskRepository extends CrudRepository<Task, Integer> {

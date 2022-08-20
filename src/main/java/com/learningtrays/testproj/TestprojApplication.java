@@ -1,4 +1,4 @@
-package com.tesco.testproj;
+package com.learningtrays.testproj;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan()
-@EnableJpaRepositories("com.tesco.testproj.repository")
-@EntityScan("com.tesco.testproj.models")
+@EnableJpaRepositories("com.learningtrays.testproj.repository")
+@EntityScan("com.learningtrays.testproj.models")
 public class TestprojApplication {
 
 	public static void main(String[] args) {

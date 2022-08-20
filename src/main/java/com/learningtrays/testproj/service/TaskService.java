@@ -1,10 +1,10 @@
-package com.tesco.testproj.service;
+package com.learningtrays.testproj.service;
 
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import com.tesco.testproj.models.Task;
+import com.learningtrays.testproj.models.Task;
 
 @Service
 public interface TaskService {

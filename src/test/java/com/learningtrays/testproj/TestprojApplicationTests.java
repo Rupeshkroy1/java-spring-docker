@@ -1,4 +1,4 @@
-package com.tesco.testproj;
+package com.learningtrays.testproj;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
