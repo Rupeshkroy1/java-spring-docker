@@ -56,3 +56,18 @@ docker run --rm \
 --network mysqlnet \
 -e MYSQL_URL=jdbc:mysql://mysqlserver/sampledb \
 -p 8080:8080 java-docker
+
+
+
+
+Once the GitHubAction workflow pushes the image to docker hub, use below command to pull it on any different machine 
+   docker pull rupeshg1roy/java-docker:latest
+   
+ Make sure mysql image is running.
+ 
+ And run the image with below command 
+ docker run --rm \
+--name springboot-server \
+--network mysqlnet \
+-e MYSQL_URL=jdbc:mysql://mysqlserver/sampledb \
+-p 8080:8080 rupeshg1roy/java-docker
